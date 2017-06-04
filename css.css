@@ -1,0 +1,52 @@
+body{
+  background-image: url(pics/background.png);
+  background-repeat: no-repeat;
+}
+#main{
+  /*width:800px;*/
+  width:800px;
+  height:10000px;
+  border:1px solid grey;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+#box1{
+  width:100px;
+  height:100px;
+  background-color:red;
+  position:absolute;
+}
+
+#counter{
+   width:200px;
+  height:50px;
+  background-color:pink;
+  position:absolute;
+  top:300px;
+  left:20px;
+}
+#symbol1{
+  width:200px;
+  height:50px;
+  position:absolute;
+  top:300px;
+  left:250px;
+}
+#symbol2{
+  width:414px;
+  height:272px;
+  position:absolute;
+  top:2000px;
+  left:250px;
+}
+#symbol3{
+  width:249px;
+  height:477px;
+  position:absolute;
+  top:5700px;
+  left:250px;
+}
+/*#counter:hover{
+  left:0;
+}*/
