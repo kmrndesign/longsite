@@ -69,12 +69,12 @@ $(window).scroll(function(){
 
 // var someVariable = new AudioFade(elementId, fadeIn, fadeOut, fadeDuration).init();
 
-var first = new AudioFade('#scrollaudio', 50, 1900, ).init();
+var first = new AudioFade('#scrollaudio', 50, 1000, 500 ).init();
 
- var second = new AudioFade('#scrollaudio2', 2000, 3000, 2000, ).init();
+ var second = new AudioFade('#scrollaudio2', 2000, 4500, ).init();
 
 // With no fade effect.
-var third = new AudioFade('#scrollaudio3',4000, 10000, ).init();
+ var third = new AudioFade('#scrollaudio3', 5000, 9500, ).init();
 
 
 
