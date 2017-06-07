@@ -52,6 +52,17 @@ $(window).scroll(function(){
 
 
 
+
+    $("#left3").css({
+    "left": fromtheTop *0.5+"px"} );
+
+
+
+    $("#right3").css({
+    "right": fromtheTop *0.4+"px"} );
+
+
+
   if (fromtheTop > -1 && fromtheTop < 1999) {
     $('#symbol1').fadeIn();
   } else {
@@ -91,9 +102,15 @@ $(window).scroll(function(){
 
   if (fromtheTop > 2000 && fromtheTop < 5699) {
     $('#symbol2').fadeIn();
+
+$('.kissright1').css({
+    "right": fromtheTop *0.1+"px"} );
   } else {
     $('#symbol2').fadeOut();
   }
+       
+
+
 
 
 
@@ -103,23 +120,6 @@ $(window).scroll(function(){
     $('#symbol3').fadeOut();
   }
 
-if (fromtheTop > 2000 && fromtheTop < 5600){
-
-    $('#kissright1').css({
-    "right": fromtheTop *0.8+"px"} );
-
-    if (fromtheTop > 5 && fromtheTop < 3000) {
-    $('#kissright1').fadeIn();
-  } else {
-    $('#right2').fadeOut();
-  }
-
-    $("#left3").css({
-    "left": fromtheTop *0.5+"px"} );
-
-    $("#right3").css({
-    "right": fromtheTop *0.4+"px"} );
-}
 
 
 
