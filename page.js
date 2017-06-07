@@ -11,6 +11,7 @@ $(window).scroll(function(){
   
   
   var fromtheTop = $(document).scrollTop();
+
   
   console.log(fromtheTop);
   
@@ -37,7 +38,14 @@ $(window).scroll(function(){
     $("#symbol3").css({
     "top": fromtheTop *1.1+"px"} );
 
+    $("#left1").css({
+    "left": fromtheTop *2.1+"px"} );
 
+    $("#right1").css({
+    "right": fromtheTop *1.1+"px"} );
+
+    $("#left2").css({
+    "left": fromtheTop *1.1+"px"} );
 
 
 
@@ -48,7 +56,23 @@ $(window).scroll(function(){
     $('#symbol1').fadeOut();
   }
 
+  if (fromtheTop > 5 && fromtheTop < 800) {
+    $('#left1').fadeIn();
+  } else {
+    $('#left1').fadeOut();
+  }
 
+    if (fromtheTop > 5 && fromtheTop < 1100) {
+    $('#right1').fadeIn();
+  } else {
+    $('#right1').fadeOut();
+  }
+
+      if (fromtheTop > 5 && fromtheTop < 1500) {
+    $('#left2').fadeIn();
+  } else {
+    $('#left2').fadeOut();
+  }
 
 
 

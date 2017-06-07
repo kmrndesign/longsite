@@ -6,7 +6,6 @@ body{
   /*width:800px;*/
   width:800px;
   height:10000px;
-  border:1px solid grey;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -26,6 +25,41 @@ body{
   top:300px;
   left:20px;
 }
+#left1{
+  color: white;
+  text-align: center;
+  background-color: black;
+   width:500px;
+  border: 20px solid white;
+  border-radius: 10px;
+  position:absolute;
+  top:1000px;
+  left:-250px;
+}
+#right1{
+  color: white;
+  text-align: center;
+  background-color: black;
+   width:500px;
+  border: 20px solid white;
+  border-radius: 10px;
+  position:absolute;
+  top:1500px;
+  right:-250px;
+}
+
+#left2{
+  color: white;
+  text-align: center;
+  background-color: black;
+   width:500px;
+  border: 20px solid white;
+  border-radius: 10px;
+  position:absolute;
+  top:1900px;
+  left:-250px;
+}
+
 #symbol1{
   width:200px;
   height:50px;
