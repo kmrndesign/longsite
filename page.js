@@ -38,6 +38,9 @@ $(window).scroll(function(){
     $("#symbol3").css({
     "top": fromtheTop *1.1+"px"} );
 
+
+
+
     $("#left1").css({
     "left": fromtheTop *2.1+"px"} );
 
@@ -46,7 +49,6 @@ $(window).scroll(function(){
 
     $("#left2").css({
     "left": fromtheTop *1.1+"px"} );
-
 
 
 
@@ -74,6 +76,17 @@ $(window).scroll(function(){
     $('#left2').fadeOut();
   }
 
+        if (fromtheTop > 5 && fromtheTop < 3900) {
+    $('#left3').fadeIn();
+  } else {
+    $('#left3').fadeOut();
+  }
+        if (fromtheTop > 5 && fromtheTop < 4200) {
+    $('#right3').fadeIn();
+  } else {
+    $('#right3').fadeOut();
+  }
+
 
 
   if (fromtheTop > 2000 && fromtheTop < 5699) {
@@ -89,6 +102,25 @@ $(window).scroll(function(){
   } else {
     $('#symbol3').fadeOut();
   }
+
+if (fromtheTop > 2000 && fromtheTop < 5600){
+
+    $('#kissright1').css({
+    "right": fromtheTop *0.8+"px"} );
+
+    if (fromtheTop > 5 && fromtheTop < 3000) {
+    $('#kissright1').fadeIn();
+  } else {
+    $('#right2').fadeOut();
+  }
+
+    $("#left3").css({
+    "left": fromtheTop *0.5+"px"} );
+
+    $("#right3").css({
+    "right": fromtheTop *0.4+"px"} );
+}
+
 
 
 // var someVariable = new AudioFade(elementId, fadeIn, fadeOut, fadeDuration).init();
